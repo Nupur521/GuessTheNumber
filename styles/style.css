@@ -1,0 +1,91 @@
+body{
+background-image: url("../public/images/AdobeStock_41825197_Preview.jpeg") ;
+background-size: cover;
+background-repeat: no-repeat;
+opacity: 0.9;
+height:100vh; 
+}
+
+.guessNumber{
+    width:20%;
+    display: flex;
+     flex-direction: column;
+     gap:4rem;
+     position: fixed;
+     top:50%;
+     left:50%;
+     -webkit-transform: translate(-50%,-50%);
+     -moz-transform: translate(-50%,-50%);
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.guessNumber>*{
+    width: 100%;
+ 
+}
+.microphone{
+    font-size: 13rem;
+}
+
+.playExit{
+    display: none;
+    gap:0.7rem;
+}
+
+.playExit>*{
+    flex-basis:100%;
+    padding:0.3rem;
+    border-radius: 0.4rem;
+    border:none;
+    font-weight:700;
+    box-shadow: 2px 1px 0 0 grey;
+}
+
+.play{
+    background-color: #537895;
+
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+color:white;
+}
+
+.play:hover, .exit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.exit{
+    color:black;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.result{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+
+/* 
+.popup{
+    display: none;
+    background-color: rgba(128,128,128,0.2);
+    height: 10rem;
+    width: 20rem;
+    border-radius: 0.4rem;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    position: fixed;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+  
+} */
